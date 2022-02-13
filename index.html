@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIN NOMBRE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilo/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+          <!--sacada de boostrap-->
+          <!------------------------------------------NAVBAR-------------------------------------->
+
+       <div id="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-vanilla">
+          <!-- Just an image -->
+          <nav class="navbar navbar-light bg-light bg-vanilla">
+            <a class="navbar-brand" href="#">
+              <img src="./imagenes/plopo.svg" width="40" height="40" alt="logonasa">
+            </a>
+          </nav>
+
+
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link vanilla" href="#historia">Historia <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link vanilla" href="#proyectos">Misiones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link vanilla" href="#proyecto1">Primer proyecto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#recuadros">Curiosidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#redes">Redes Sociales</a>
+              </li>
+              
+            </ul>
+          </div>
+        </nav>
+              <!------------------------------------------CAROUSEL-------------------------------------->
+
+        <!--sacado de bootsrap-->
+         <section id="hero">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+           
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/spacex-OHOU-5UVIYQ-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/nasa-OLlj17tUZnU-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block text-dark mb-5">
+               
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/spacex--p-KCm6xB9I-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                 
+                </div>
+              </div>
+            </div>
+            <button id="flecha1" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button id="flecha2" class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+          </div>
+         </section>
+               <!------------------------------------------HISTORIA-------------------------------------->
+
+         <div id="pagina">
+        
+          <div id="historia">
+              <h1>Historia</h1>
+          </div>  
+     
+        <section id="introduction">
+          <img id="ima" src="./imagenes/nss.png" alt="">
+            <div class="container-fluid">
+                <p>El 1 de octubre de 1958, se inaugura la agencia gubernamental responsable de los programas espaciales, la NASA.</p>
+                <p>A raíz del Sputnik 1, primer satélite artificial lanzado al espacio el 4 de octubre de 1957 por el programa espacial soviético, el Congreso de los Estados Unidos lo percibió como una amenaza a la seguridad y, tras un intenso debate, el presidente Eisenhower y sus consejeros decidieron fundar la nueva agencia federal para competir en la carrera espacial.</p>
+                <p>En el primer día de la NASA, se inauguraron cuatro laboratorios. La agencia contaba con unos ocho mil empleados cuyo único objetivo era poner una nave tripulada en órbita.</p>
+            </div>
+        </section>
+
+        <section>
+              <div id="proyectos">
+                  <h1>Proyectos</h1>
+              </div>  
+        </section>
+
+               <!--sacado de bootsrap-->
+<section id="cuadros" class="p-4">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-xs-12 col-md-6 col-lg-3 bg-info">
+      <!------------------------------------------AQUÍ EMPIEZA LA 1º CARD-------------------------------------->
+      <div class="card">
+          <img src="./imagenes/nasa1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Misión Artemis-1 a la Luna</h5>
+            <p class="card-text">Planificada para 2021, pero retrasada varias veces, Artemis-1 es una misión de prueba de vuelo sin tripulación durante la cual la nave espacial Orión de la NASA, el Modelo de Servicio Europeo (ESM) y el Sistema de Lanzamiento Espacial (SLS)</p>
+            <a data-bs-toggle="modal" data-bs-target="#leerMas1" class="btn btn-primary">Leer mas</a>
+            <!-- Modal -->
+            <div class="modal fade" id="leerMas1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="LeerMas1Label">Información</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                  <p> La misión consistirá en el lanzamiento del nuevo cohete SLS que orbitará la Tierra y luego viajará a la Luna con Orión y el ESM para entrar en una órbita elíptica de nuestro satélite natural que los verá llegar a 100 kilómetros sobre su superficie.Este viaje será un precursor de la misión tripulada Artemis-3, que aterrizará en la Luna en 2025</p>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>                    
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------AQUÍ EMPIEZA LA 2º CARD-------------------------------------->
+      <div class="col-xs-12 col-md-6 col-lg-3 bg-primary">
+        <div class="card">
+          <img src="./imagenes/nasa2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Misión a la Estación Espacial Internacional</h5>
+            <p class="card-text">Después del éxito de la misión Inspiration-4 en 2021, la compañía privada de vuelos espaciales Axiom firmó un contrato con SpaceX, la empresa privada espacial cuyo CEO es el multimillonario emprendedor Elon Musk.</p>
+            <!--el vinculo de abajo aparece como un boton por el estilo asociado: btn btn-primary-->
+            <a data-bs-toggle="modal" data-bs-target="#leerMas2" class="btn btn-primary">Leer mas</a>
+            <!-- Modal -->
+            <div class="modal fade" id="leerMas2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered2">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="LeerMas2Label">Información</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                  <p>El primer Ax-1 se lanzará el 21 de febrero y se extenderá hasta 3 de marzo de 2022. Verá al ex astronauta de la NASA Michael Lopez-Alegria llevar a tres turistas espaciales en una misión de ocho días a la ISS. La siguiente misión, Ax-2 hará que otra ex astronauta de la NASA, Peggy Whitson, haga lo mismo en el otoño de 2022.</p>
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>                    
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------AQUÍ EMPIEZA LA 3º CARD-------------------------------------->
+      <div class="col-xs-12 col-md-6 col-lg-3 bg-info">
+        <div class="card">
+          <img src="./imagenes/nasa3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Estrellarse contra un asteroide</h5>
+            <p class="card-text">Varias son las películas de ciencia ficción que lo imaginaron en sus guiones y lo plasmaron en la pantalla grande. Pero hoy la ciencia se prepara para hacerlo realidad: impactar un asteroide para desviar su curso.</p>
+            <!--el vinculo de abajo aparece como un boton por el estilo asociado: btn btn-primary-->
+            <a data-bs-toggle="modal" data-bs-target="#leerMas3" class="btn btn-primary">Leer mas</a>
+            <!-- Modal -->
+            <div class="modal fade" id="leerMas3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="LeerMas3Label">Información</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                  <p>Si todo sale tal como lo planea la NASA, en octubre de 2022, DART impactará en la pequeña luna asteroide Dimorphos, que orbita a un compañero más grande, Didymos, en un sistema de asteroides binarios para cambiar su período orbital. Ambos están situados a unos 11 millones de kilómetros de la Tierra. </p>
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>                    
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------AQUÍ EMPIEZA LA 4º CARD-------------------------------------->
+
+      <div class="col-xs-12 col-md-6 col-lg-3 bg-primary">
+        <div class="card">
+          <img src="./imagenes/nasa4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Una nueva nave orbital llegará</h5>
+            <p class="card-text">Después de varios vuelos secretos, el novedoso transbordador Dream Chaser (‘Cazador de Sueños’), fabricado por la compañía Sierra Nevada Corporation (SNC), está listo para su presentación en sociedad.</p>
+            <!--el vinculo de abajo aparece como un boton por el estilo asociado: btn btn-primary-->
+            <a data-bs-toggle="modal" data-bs-target="#leerMas4" class="btn btn-primary">Leer mas</a>
+            <!-- Modal -->
+            <div class="modal fade" id="leerMas4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="LeerMas4Label">Información</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                  <p>A partir de marzo, este vehículo despegará sobre el cohete Vulcan Centaur y realizará una serie de vuelos automáticos y no tripulados de prueba programados a la ISS para proporcionar la entrega de carga y el regreso de experimentos científicos en virtud de un contrato de Servicio de reabastecimiento comercial 2 (CRS2) con la NASA. Con una longitud de nueve metros y un peso de 9 mil kilos, este vehículo será capaz de servir de transporte para llevar hasta seis pasajeros a la Estación Espacial Internacional y después volver solo en vuelo suborbital.</p>
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>                    
+          </div>
+        </div>
+      </div>
+</section>
+        <!------------------------------------------PRIMER PROYECTO Y SU VIDEO-------------------------------------->
+
+
+  <div id="proyecto1">
+      <h1>Primer Proyecto</h1>
+    </div>  
+<section id="introduction2">
+
+  <p>El Programa Mercury fue el primer programa espacial tripulado de los Estados Unidos, desarrollado entre 1961 y 1963 en el marco de la carrera espacial. Los inicios del proyecto se remontan al 7 de octubre de 1958, un año y tres días después de que la Unión Soviética pusiera en órbita alrededor de la Tierra al Sputnik 1, el primer satélite en el espacio.
+    <br/>
+     <br/>
+    Al grupo de astronautas seleccionados por la NASA para las misiones del programa se les conocía como «Mercury Seven» y los pilotos asignaron a sus naves un nombre seguido de un 7.1​.
+  
+  el 5 de mayo de 1961, Alan Shepard realizaba el primer vuelo suborbital estadounidense. Dado el liderazgo soviético en el espacio, el gobierno estadounidense presentó al mundo este vuelo suborbital como un vuelo espacial. No sería hasta nueve meses más tarde, el 20 de febrero de 1962 cuando el astronauta John Glenn se convertiría en el primer estadounidense en orbitar la Tierra, repitiendo así la hazaña de Yuri Gagarin.</p>
+     <div  style=text-align:center;>
+      <iframe id="video"width="560" height="315" src="https://www.youtube.com/embed/j2tFJPfoYfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
+     </section>
+  
+     <!--sacado de bootsrap-->
+     <!------------------------------------------Recuadros interactivos-------------------------------------->
+    <div id="recuadros">
+      <h1>Curiosidades</h1>
+    </div>  
+<section id="recuadros">
+  <div id="accordion">
+    <div class="card3">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="ae" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            La NASA paga 9 mil dólares por descansar
+          </button>
+        </h5>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body3">
+          Es muy difícil ser seleccionado para trabajar en la NASA y aún más si se desea ser astronauta. Antes de seleccionar a quienes irán al espacio, los postulantes pasan 70 días en cama relajándose. Puede sonar ridículo, sobre todo porque la NASA les paga 9 mil dólares mensuales por estar acostados, pero es necesario para saber cómo el cuerpo de estos postulantes reacciona a la inactividad que el organismo puede sentir al estar en ambientes con diferentes niveles de gravedad.        </div>
+          <img id="imagen3" src="./imagenes/Captura de pantalla 2022-02-13 120153.png">
+        </div>
+    </div>
+    <div class="card3">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="ae" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Protección planetaria
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body3">
+          ¿Crees que existe vida en otro planeta? En la NASA no lo descartan y por ello tienen una oficina especial dedicada a desarrollar planes de protección para planetas habitados, aunque no sabemos qué planes tienen para sus actuales residentes.        </div>
+          <img id="imagen3" src="./imagenes/Captura de pantalla 2022-02-13 120244.png">
+
+        </div>
+    </div>
+    <div class="card3">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="ae" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Demanda por parte de los dueños de Marte
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body3">
+          Cuando el  Curiosity llegó a Marte, en agosto del 2012, el mundo de la astronomía estaba fascinado por los hallazgos que transmitía, aunque no todos estaban felices por su llegada al planeta rojo. Un grupo de habitantes de Yemen demandó a la NASA por ocupación ilegal del planeta, ya que según ellos Marte les había sido heredado por sus antepasados. Tengan claro que no lograron cobrar un centavo.        </div>
+          <img id="imagen3" src="./imagenes/Captura de pantalla 2022-02-13 120332.png">
+
+        </div>
+    </div>
+  </div>
+</section>
+
+</div>
+        <!------------------------------------------FOOTER-------------------------------------->
+  <footer id="footer">
+    Sigue a NASA en:
+  </footer>
+      <footer>
+              <div id="redes">
+            <a href="https://www.instagram.com/nasa/?hl=es"><i class="fa fa-instagram fa-2x" aria-hidden="true"style="font-size:40px;color:black"></i></a>
+            <a href="https://www.youtube.com/c/nasa"><i class="fa fa-youtube-play fa-2x" aria-hidden="true "style="font-size:40px;color:black"></i></a>
+            <a href="https://twitter.com/NASA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter fa-2x" aria-hidden="true" style="font-size:40px;color:black"></i></a>
+            <a href="https://www.facebook.com/NASA"><i class="fa fa-facebook-official fa-2x" aria-hidden="true" style="font-size:40px;color:black"></i></a>
+            </div>
+       </footer>
+  <footer id="final"><h2>NASA</h2></footer>
+      <!------------------------------------------SCRIPT-------------------------------------->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          <script src="./js/misscripts.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      </body>
+</html>
